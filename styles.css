@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&family=Nunito:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.hero {
+  background-image: url("assets/hero.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.hero-container {
+  width: 75%;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.hero-container h1 {
+  font-size: 10em;
+  color: white;
+  font-family: "Noto Serif", serif;
+}
+
+header h3 {
+  padding: 1em;
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;
+  transition: 0.2s ease-in-out;
+  margin-top: 2em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+nav li a:hover {
+  color: rgb(219, 219, 219);
+}
+nav li:hover {
+  transform: translateY(-5px);
+}
