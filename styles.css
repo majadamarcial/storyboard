@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-html {
-  background-color: black;
-}
-
 .wrapper {
   width: 100%;
   margin: auto;
