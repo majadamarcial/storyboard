@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&family=Nunito:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(206, 55, 1);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+.header-container {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.hero-container {
+  width: 75%;
+  margin: auto;
+  margin-top: 0px;
+}
+
+header h3 {
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+  margin-top: 4px;
+}
+
+.search {
+  height: 2em;
+  align-self: center;
+  margin-left: 2em;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  color: white;
+  width: 200px;
+  transition: 0.3s ease-in-out;
+  font-family: "Nunito", sans-serif;
+}
+
+.search:focus {
+  width: 400px;
+  border: none;
+}
+
+.search::placeholder {
+  color: rgb(219, 219, 219);
+  font-family: "Nunito", sans-serif;
+  opacity: 0.7;
+}
+
+nav {
+  display: flex;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  transition: 0.2s ease-in-out;
+  margin-top: 0.9em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+nav li a:hover {
+  color: rgb(219, 219, 219);
+}
+nav li:hover {
+  transform: translateY(-5px);
+}
+
+.li-words {
+  margin-right: 3em;
+}
+
+.books {
+  background-color: black;
+}
+
+.books-wrapper {
+  width: 75%;
+  margin: auto;
+  height: 1000px;
+}
+
+.books-wrapper h3 {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 3em;
+  margin-top: 2em;
+}
+
+.books-wrapper h1 {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 5em;
+}
+
+.books-title {
+  margin-top: 10em;
+}
+.books-title hr {
+  width: 24%;
+  height: 10px;
+  background-color: white;
+}
