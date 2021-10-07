@@ -6,16 +6,23 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: black;
+}
+
 .wrapper {
-  width: 100%;
+  width: 70%;
   margin: auto;
 }
 
 header {
-  background-color: black;
+  background-color: rgb(206, 55, 1);
   width: 100%;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .header-container {
@@ -36,6 +43,35 @@ header h3 {
   padding: 10px;
   font-family: "Nunito", sans-serif;
   font-size: 2em;
+  margin-top: 4px;
+}
+
+.search {
+  height: 2em;
+  align-self: center;
+  margin-left: 2em;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  color: white;
+  width: 200px;
+  transition: 0.3s ease-in-out;
+  font-family: "Nunito", sans-serif;
+}
+
+.search:focus {
+  width: 400px;
+  border: none;
+}
+
+.search::placeholder {
+  color: rgb(219, 219, 219);
+  font-family: "Nunito", sans-serif;
+  opacity: 0.7;
+}
+
+nav {
+  display: flex;
 }
 
 nav li {
@@ -55,4 +91,8 @@ nav li a:hover {
 }
 nav li:hover {
   transform: translateY(-5px);
+}
+
+.li-words {
+  margin-right: 3em;
 }

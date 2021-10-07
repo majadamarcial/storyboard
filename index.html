@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bookiex-video.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <title>Bookiex</title>
@@ -13,34 +14,208 @@
 
 <body>
 
-    <div class="wrapper">
-        <header>
-            <div class="header-container">
+    <header>
+        <div class="header-container">
+            <div class="logo" style="display: flex;">
 
-                <h3 style="color: white;">bookiex</h3>
-                <nav>
-                    <ul>
-                        <li><a href="./cataloge.html">Cataloge</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">Stories</a></li>
-                    </ul>
-                </nav>
+                <a href="index.html" style="text-decoration: none;">
+                    <h3 style="color: white;">bookiex</h3>
+                </a>
+                <img src="./assets/open-book.png" alt="booklogo" width="32px" height="32px"
+                    style="align-self: center; margin-left: -3px;">
+                <input placeholder="Search" type="text" name="search" id="search" class="search">
+                <button
+                    style="background-color: transparent; border: none;cursor: pointer; margin-left: 5px;">🔍</button>
             </div>
-        </header>
-        <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
-            <div class="carousel-cell">
-                <img src="./assets/Slider-Marvel-3.jpg" alt="">
-            </div>
-            <div class="carousel-cell">
-                <img src="./assets/Harry-Slider-2.jpg" alt="">
-            </div>
-            <div class="carousel-cell">
-                <img src="./assets/Slider-DiscWorld-2.jpg" alt="">
-            </div>
+
+            <nav>
+                <ul class="li-words">
+
+                    <li><a href="cataloge.html">Cataloge</a></li>
+                    <li><a href="index.html #ivideos-container">Videos</a></li>
+                    <li><a href="#">Stories</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#"><img src="./assets/user.png"></a></li>
+                    <li><a href="#"><img src="./assets/shopping-cart.png"></a></li>
+                </ul>
+
         </div>
+    </header>
+
+    <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
+        <div class="carousel-cell">
+            <img src="./assets/Slider-Marvel-3.jpg" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="./assets/Harry-Slider-2.jpg" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="./assets/Slider-DiscWorld-2.jpg" alt="">
+        </div>
+    </div>
+    <div class="wrapper">
         <main>
-            <section>
-                <h1>Why Bookiex?</h1>
+            <section id="ivideos-secction">
+                <div class="titulo">
+                    <h1>See more about Bookiex in our videos</h1>
+                    <img width="50px" src="assets/libro-educativo(1).png" alt="icono-libro">
+                </div>
+
+                <div class="barra"></div>
+
+                <div class="video-container">
+                    <iframe class="publicvideo" width="100%" src="https://www.youtube.com/embed/8yZ5jhQf80M"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <div class="card-video">
+                        <h2>Lorem, ipsum dolor sit amet</h2>
+                        <div class="barrita"></div>
+                        <p>
+                            Sed ultrices eros sed sem congue egestas. Vestibulum libero turpis,
+                            gravida sit amet ante quis, iaculis mattis nisi. Fusce eu pharetra enim,
+                            a vehicula risus. Vestibulum quis tortor augue. Aliquam sed elementum tellus,
+                            ac venenatis eros. Cras efficitur dolor vitae felis ultrices,
+                            sed elementum dui mollis. Donec lacinia venenatis varius.
+                            Morbi eu nisl ut mauris mattis interdum id ac augue. Mauris feugiat libero
+                            sit amet augue egestas finibus. Curabitur et pulvinar massa.
+                        </p>
+                        <p>
+                            Curabitur sit amet ultrices magna. Praesent quis orci non felis imperdiet
+                            tempus nec a augue. Nulla eget eros eget mi tempus lobortis id vel tellus.
+                            Ut et urna vitae metus sagittis accumsan. Cras hendrerit odio est, vel imperdiet
+                            lorem tincidunt at. Nulla id orci interdum, lobortis quam et, ullamcorper lectus.
+                            Donec ac nisi quis dolor semper feugiat et ut augue. Nulla facilisi.
+                            Pellentesque et lacus quis enim imperdiet cursus.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="iframe-container">
+
+                    <div class="card-ivideos">
+                        <iframe width="100%" src="https://www.youtube.com/embed/8BjedPNNrCk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        <div class="card-itext">
+                            <h2>Xenomorfo</h2>
+                            <div class="barrita"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis,
+                                arcu ut ultricies dapibus, nisi tortor commodo velit, quis sodales nulla.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-ivideos">
+                        <iframe width="100%" src="https://www.youtube.com/embed/gr4cn2Ots54"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        <div class="card-itext">
+                            <h2>Mundodisco</h2>
+                            <div class="barrita"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis,
+                                arcu ut ultricies dapibus, nisi tortor commodo velit, quis sodales nulla.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-ivideos">
+                        <iframe width="100%" src="https://www.youtube.com/embed/GBuw2LHRIbQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        <div class="card-itext">
+                            <h2>La piedra filosofal</h2>
+                            <div class="barrita"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis,
+                                arcu ut ultricies dapibus, nisi tortor commodo velit, quis sodales nulla.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-ivideos">
+                        <iframe width="100%" src="https://www.youtube.com/embed/Hq0BU3EF1IY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        <div class="card-itext">
+                            <h2>El legado maldito</h2>
+                            <div class="barrita"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis,
+                                arcu ut ultricies dapibus, nisi tortor commodo velit, quis sodales nulla.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-ivideos">
+                        <iframe width="100%" src="https://www.youtube.com/embed/44pZ_Z9ebTM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        <div class="card-itext">
+                            <h2>Empieza con Marvel</h2>
+                            <div class="barrita"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis,
+                                arcu ut ultricies dapibus, nisi tortor commodo velit, quis sodales nulla.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-ivideos">
+                        <iframe width="100%" src="https://www.youtube.com/embed/Znw_OzrQpKM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        <div class="card-itext">
+                            <h2>Todo sobre Marvel</h2>
+                            <div class="barrita"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis,
+                                arcu ut ultricies dapibus, nisi tortor commodo velit, quis sodales nulla.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="video-container">
+                    <iframe class="publicvideo" width="100%" src="https://www.youtube.com/embed/PM4HJX4w6DQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <div class="card-video">
+                        <h2>Lorem, ipsum dolor sit amet</h2>
+                        <div class="barrita"></div>
+                        <p>
+                            Sed ultrices eros sed sem congue egestas. Vestibulum libero turpis,
+                            gravida sit amet ante quis, iaculis mattis nisi. Fusce eu pharetra enim,
+                            a vehicula risus. Vestibulum quis tortor augue. Aliquam sed elementum tellus,
+                            ac venenatis eros. Cras efficitur dolor vitae felis ultrices,
+                            sed elementum dui mollis. Donec lacinia venenatis varius.
+                            Morbi eu nisl ut mauris mattis interdum id ac augue. Mauris feugiat libero
+                            sit amet augue egestas finibus. Curabitur et pulvinar massa.
+                        </p>
+                        <p>
+                            Curabitur sit amet ultrices magna. Praesent quis orci non felis imperdiet
+                            tempus nec a augue. Nulla eget eros eget mi tempus lobortis id vel tellus.
+                            Ut et urna vitae metus sagittis accumsan. Cras hendrerit odio est, vel imperdiet
+                            lorem tincidunt at. Nulla id orci interdum, lobortis quam et, ullamcorper lectus.
+                            Donec ac nisi quis dolor semper feugiat et ut augue. Nulla facilisi.
+                            Pellentesque et lacus quis enim imperdiet cursus.
+                        </p>
+                    </div>
+                </div>
+
             </section>
             <section>
                 <h1>About Us</h1>
