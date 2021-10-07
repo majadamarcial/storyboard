@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+}
+
+main{
+    margin-top: 50px;
+}
+
+main #ivideos-secction {
+    margin-top: 100px;
+}
+
+#ivideos-secction .titulo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#ivideos-secction .titulo h1 {
+    padding: 10px 0 10px 0;
+    margin-right: 15px;
+    color: rgb(206, 55, 1);
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+}
+
+main #ivideos-secction .barra{
+    width: 81%;
+    height: 10px;
+    background-color: rgb(206, 55, 1);
+    margin-bottom: 50px;
+}
+
+.video-container {
+    box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+.iframe-container {
+    box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+div.video-container:nth-child(4) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.card-video {
+    width: 40%;
+    background-color: whitesmoke;
+}
+
+.card-video p {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-video h2 {
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    color: rgb(37, 78, 46);
+}
+
+.card-video .barrita {
+    width: 92.5%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: rgb(37, 78, 46);
+}
+
+.barrita {
+    width: 100%;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: rgb(37, 78, 46);
+}
+
+.publicvideo {
+    width: 60%;
+}
+
+.card-ivideos {
+    box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+    margin: 2%;
+    width: 29.33%;
+    border-radius: 10px;
+}
+
+.card-ivideos iframe {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-itext {
+    background-color: whitesmoke;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-itext h2 {
+    padding: 10px 0 0 10px;
+    margin-bottom: 2px;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    color: rgb(37, 78, 46);
+}
+
+.card-itext p {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 0 0 10px 10px;
+}
