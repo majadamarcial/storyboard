@@ -50,6 +50,7 @@ header h3 {
 .search {
   height: 2em;
   align-self: center;
+  padding-left: 10px;
   margin-left: 2em;
   border: none;
   background-color: transparent;
@@ -63,7 +64,8 @@ header h3 {
 .search-main {
   height: 2em;
   align-self: center;
-
+  padding: 10px;
+  padding-top: 15px;
   border: none;
   background-color: white;
   border-bottom: 2px solid white;
